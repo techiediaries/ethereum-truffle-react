@@ -27,6 +27,18 @@ Navigate inside the `frontend` project and run:
 
 ```bash
 $ npm install
+```
+
+Navigate inside the `frontend/node_modules` folder and create a symbolic link to the `../../build/contracts` folder:
+
+
+```bash
+ln -s ../../build/contracts contracts
+```
+
+Next, start the application:
+
+```bash
 $ npm start
 ```
 
